@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #fff;
+}
+.container{
+    background-color: #333;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "meja1 meja1 meja1 meja1"
+    "meja2 meja3 meja3 meja4"
+    "meja2 meja3 meja3 meja4"
+    "meja2 meja3 meja3 meja4"
+    "meja5 meja5 meja5 meja5";
+}
+.siswa1{
+    grid-area: meja1;
+    background-color: pink;
+}
+.siswa2{
+    grid-area: meja2;
+    background-color: blue;
+}
+.siswa3{
+    grid-area: meja3;
+    background-color: green;
+}
+.siswa4{
+    grid-area: meja4;
+    background-color: #333;
+}
+.siswa5{
+    grid-area: meja5;
+    background-color: aqua;
+}

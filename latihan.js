@@ -1,0 +1,1 @@
+let data=["alisha", "anggi"]
